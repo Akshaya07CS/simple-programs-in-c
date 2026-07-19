@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() {
+    int M, H, S;
+    printf("Enter the minute:");
+    scanf("%d", &M);
+    H = (M / 60);
+    S = (M * 60);
+    printf("Hours:%d", H);
+    printf(" seconds:%d", S);
+    return 0;
+}
